@@ -5,7 +5,7 @@ MAINTAINER habeex1 <helmut@blankefort.de>
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install Base Packages
-RUN apt-get update && apt-get -y install apt-utils wget apt-transport-https supervisor telnet
+RUN apt-get update && apt-get -y install apt-utils wget apt-transport-https supervisor telnet mosquitto mosquitto-clients
 
 # Setup Supervisor
 RUN mkdir -p /var/log/supervisor
