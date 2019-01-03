@@ -33,6 +33,7 @@ libxml-simple-perl \
 libcrypt-pbkdf2-perl \
 libcpan-meta-yaml-perl \
 librpc-xml-perl \
+libmath-round-perl \
 build-essential
 
 RUN cpan install Net::MQTT::Simple
